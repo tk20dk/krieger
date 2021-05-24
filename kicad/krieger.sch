@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "Krieger"
-Date "2018-09-09"
-Rev "v1.0"
+Date "2021-05-24"
+Rev "v2.0"
 Comp "www.2-0.dk"
 Comment1 ""
 Comment2 ""

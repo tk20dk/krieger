@@ -7,7 +7,7 @@
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
+  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
   * All rights reserved.</center></h2>
   *
   * This software component is licensed by ST under BSD 3-Clause license,
@@ -28,7 +28,7 @@ extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32f0xx_hal.h"
+#include "stm32f4xx_hal.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -58,18 +58,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define HMI_LED2_BLUE_Pin GPIO_PIN_13
-#define HMI_LED2_BLUE_GPIO_Port GPIOB
-#define HMI_LED2_GREEN_Pin GPIO_PIN_14
-#define HMI_LED2_GREEN_GPIO_Port GPIOB
-#define HMI_LED2_RED_Pin GPIO_PIN_15
-#define HMI_LED2_RED_GPIO_Port GPIOB
-#define HMI_LED1_BLUE_Pin GPIO_PIN_8
-#define HMI_LED1_BLUE_GPIO_Port GPIOA
-#define HMI_LED1_GREEN_Pin GPIO_PIN_9
-#define HMI_LED1_GREEN_GPIO_Port GPIOA
-#define HMI_LED1_RED_Pin GPIO_PIN_10
-#define HMI_LED1_RED_GPIO_Port GPIOA
+#define HMI1_BLUE_Pin GPIO_PIN_6
+#define HMI1_BLUE_GPIO_Port GPIOC
+#define HMI1_GREEN_Pin GPIO_PIN_7
+#define HMI1_GREEN_GPIO_Port GPIOC
+#define HMI1_RED_Pin GPIO_PIN_8
+#define HMI1_RED_GPIO_Port GPIOC
+#define HMI2_GREEN_Pin GPIO_PIN_10
+#define HMI2_GREEN_GPIO_Port GPIOC
+#define HMI2_RED_Pin GPIO_PIN_11
+#define HMI2_RED_GPIO_Port GPIOC
+#define HMI2_BLUE_Pin GPIO_PIN_12
+#define HMI2_BLUE_GPIO_Port GPIOC
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
