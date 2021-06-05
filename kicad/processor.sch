@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title "Krieger"
-Date "2021-05-24"
+Date "2021-06-05"
 Rev "v2.0"
 Comp "www.2-0.dk"
 Comment1 ""
@@ -586,7 +586,7 @@ Text GLabel 6800 2750 2    50   BiDi ~ 0
 pa0
 Text GLabel 6800 2850 2    50   BiDi ~ 0
 pa1
-Text GLabel 5400 5550 0    50   BiDi ~ 0
+Text GLabel 6800 4950 2    50   BiDi ~ 0
 hmi2_blue
 Text GLabel 5400 4150 0    50   BiDi ~ 0
 pd2
@@ -614,8 +614,8 @@ Text GLabel 6800 4850 2    50   Input ~ 0
 pb4
 Text GLabel 6800 4250 2    50   BiDi ~ 0
 pa15
-Text GLabel 6800 4950 2    50   BiDi ~ 0
-pb5
+Text GLabel 5400 5550 0    50   BiDi ~ 0
+pc12
 Text GLabel 6800 5050 2    50   BiDi ~ 0
 pb6
 Text GLabel 6800 4750 2    50   BiDi ~ 0
@@ -1033,10 +1033,6 @@ Text GLabel 6800 5550 2    50   BiDi ~ 0
 pb12
 Text GLabel 6800 5650 2    50   BiDi ~ 0
 pb13
-Text GLabel 6800 5750 2    50   BiDi ~ 0
-pb14
-Text GLabel 6800 5850 2    50   BiDi ~ 0
-pb15
 $Comp
 L MCU_ST_STM32F4:STM32F446RETx U3
 U 1 1 6095A459
@@ -1048,9 +1044,9 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    6100 4250
 	1    0    0    -1  
 $EndComp
-Text GLabel 5400 4950 0    50   BiDi ~ 0
+Text GLabel 6800 5850 2    50   BiDi ~ 0
 hmi1_blue
-Text GLabel 5400 5050 0    50   BiDi ~ 0
+Text GLabel 6800 5750 2    50   BiDi ~ 0
 hmi1_green
 Text GLabel 5400 5150 0    50   BiDi ~ 0
 hmi1_red
@@ -1183,4 +1179,8 @@ F 3 "" H 9850 3750 50  0001 C CNN
 	1    9850 3750
 	0    1    1    0   
 $EndComp
+Text GLabel 5400 4950 0    50   BiDi ~ 0
+pc6
+Text GLabel 5400 5050 0    50   BiDi ~ 0
+pc7
 $EndSCHEMATC

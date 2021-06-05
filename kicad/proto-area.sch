@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "Krieger"
-Date "2021-05-24"
+Date "2021-06-05"
 Rev "v2.0"
 Comp "www.2-0.dk"
 Comment1 ""
@@ -47,8 +47,8 @@ Text GLabel 6200 2850 2    50   BiDi ~ 0
 pc3
 Text GLabel 6200 5050 2    50   BiDi ~ 0
 pb10
-Text GLabel 5000 3950 0    50   BiDi ~ 0
-pb5
+Text GLabel 5000 3750 0    50   BiDi ~ 0
+pc12
 Text GLabel 5000 3850 0    50   BiDi ~ 0
 pb3
 Text GLabel 6200 4950 2    50   BiDi ~ 0
@@ -168,12 +168,10 @@ Text GLabel 6200 4850 2    50   BiDi ~ 0
 pc5
 Text GLabel 6200 5150 2    50   BiDi ~ 0
 pb13
-Text GLabel 6200 4250 2    50   BiDi ~ 0
-pb14
-Text GLabel 6200 5250 2    50   BiDi ~ 0
-pb15
-Text GLabel 6200 3450 2    50   BiDi ~ 0
-hmi1_red
+Text GLabel 6200 3350 2    50   BiDi ~ 0
+pc7
+Text GLabel 6200 4350 2    50   BiDi ~ 0
+pc6
 Text GLabel 6200 3150 2    50   BiDi ~ 0
 pc0
 Text GLabel 5000 3250 0    50   BiDi ~ 0
@@ -249,12 +247,12 @@ F 3 "" H 6200 2650 50  0001 C CNN
 	1    6200 2650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6200 3350 2    50   BiDi ~ 0
-hmi1_green
 $Comp
 L krieger:proto-area U4
 U 1 1 6097F86E
 P 5600 3950
+AR Path="/6097F86E" Ref="U4"  Part="1" 
+AR Path="/5B673B54/6097F86E" Ref="U4"  Part="1" 
 F 0 "U4" H 5600 5497 60  0000 C CNN
 F 1 "proto-area" H 5600 5391 60  0000 C CNN
 F 2 "krieger:proto-area" H 5500 4650 60  0001 C CNN
@@ -262,10 +260,14 @@ F 3 "" H 5500 4650 60  0001 C CNN
 	1    5600 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 6200 4350 2    50   BiDi ~ 0
+Text GLabel 6200 5250 2    50   BiDi ~ 0
 hmi1_blue
 Text GLabel 5000 3450 0    50   BiDi ~ 0
 nrst
-Text GLabel 5000 3750 0    50   BiDi ~ 0
+Text GLabel 5000 3950 0    50   BiDi ~ 0
 hmi2_blue
+Text GLabel 6200 4250 2    50   BiDi ~ 0
+hmi1_green
+Text GLabel 6200 3450 2    50   BiDi ~ 0
+hmi1_red
 $EndSCHEMATC
