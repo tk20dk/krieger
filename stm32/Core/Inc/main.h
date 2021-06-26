@@ -58,18 +58,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define HMI1_BLUE_Pin GPIO_PIN_6
-#define HMI1_BLUE_GPIO_Port GPIOC
-#define HMI1_GREEN_Pin GPIO_PIN_7
-#define HMI1_GREEN_GPIO_Port GPIOC
-#define HMI1_RED_Pin GPIO_PIN_8
-#define HMI1_RED_GPIO_Port GPIOC
-#define HMI2_GREEN_Pin GPIO_PIN_10
-#define HMI2_GREEN_GPIO_Port GPIOC
-#define HMI2_RED_Pin GPIO_PIN_11
-#define HMI2_RED_GPIO_Port GPIOC
-#define HMI2_BLUE_Pin GPIO_PIN_12
-#define HMI2_BLUE_GPIO_Port GPIOC
+#define HMI_LED1_GREEN_Pin GPIO_PIN_14
+#define HMI_LED1_GREEN_GPIO_Port GPIOB
+#define HMI_LED1_BLUE_Pin GPIO_PIN_15
+#define HMI_LED1_BLUE_GPIO_Port GPIOB
+#define HMI_LED1_RED_Pin GPIO_PIN_8
+#define HMI_LED1_RED_GPIO_Port GPIOC
+#define HMI_LED2_GREEN_Pin GPIO_PIN_10
+#define HMI_LED2_GREEN_GPIO_Port GPIOC
+#define HMI_LED2_RED_Pin GPIO_PIN_11
+#define HMI_LED2_RED_GPIO_Port GPIOC
+#define HMI_LED2_BLUE_Pin GPIO_PIN_5
+#define HMI_LED2_BLUE_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
